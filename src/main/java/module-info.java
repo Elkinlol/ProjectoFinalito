@@ -6,4 +6,8 @@ module com.proyectofinal.estructuradatos.proyectofinalestructuradatos {
 
     opens com.proyectofinal.estructuradatos.proyectofinalestructuradatos to javafx.fxml;
     exports com.proyectofinal.estructuradatos.proyectofinalestructuradatos;
+
+    opens com.proyectofinal.estructuradatos.proyectofinalestructuradatos.Controller to javafx.fxml;
+    exports com.proyectofinal.estructuradatos.proyectofinalestructuradatos.Controller;
+
 }
